@@ -8,3 +8,20 @@ function getName() {
 let test = getName();
 
 //alert(test);
+
+function switchCase() {
+  let answer = "";
+  //alert(test);
+  switch (test.includes("Magic")) {
+    case true:
+      answer = "Bibidi babibi boo";
+      break;
+    default:
+      answer = "It's a Normal text";
+  }
+  return answer;
+}
+
+let sCase = switchCase();
+
+//alert(sCase);
