@@ -25,3 +25,9 @@ function switchCase() {
 let sCase = switchCase();
 
 //alert(sCase);
+
+if (sCase != "") {
+  window.onload = function what() {
+    document.getElementById("content").innerHTML = sCase;
+  };
+}
